@@ -1,0 +1,46 @@
+name: harmonie_pay
+description: Application mobile pour dépôts et retraits de paris en ligne.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.10.0
+  firebase_database: ^10.2.0
+  firebase_storage: ^11.4.0
+  firebase_messaging: ^14.6.0
+  provider: ^6.0.0
+  image_picker: ^1.0.0
+  intl: ^0.19.0
+  shared_preferences: ^2.2.0
+  http: ^1.1.0
+  uuid: ^4.0.0
+  flutter_local_notifications: ^16.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_linter: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/translations/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
