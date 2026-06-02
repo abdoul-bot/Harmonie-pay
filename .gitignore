@@ -1,0 +1,84 @@
+# Harmonie Payignore build
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.perspectivev3
+Pods/
+.Pods/
+Podfile.lock
+Podfile
+
+# Symlinks
+flutter/Flutter.framework
+flutter/Flutter.podspec
+
+# Xcode related
+**/xcuserdata/**
+**/xcshareddata/xcschemes/**
+DerivedData/
+
+# Flutter
+/build/
+/dist/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+.env
+.env.local
+
+# Android
+local.properties
+*.apk
+*.jks
+*.keystore
+gradle-wrapper.jar
+.gradle
+.android
+gradlew
+gradlew.bat
+
+# Generated files
+*.class
+*.dex
+*.so
+*.o
+*.a
+*.lib
+*.so
+
+# Misc
+TODO
+.temp
+.tmp
